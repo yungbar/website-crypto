@@ -1,0 +1,307 @@
+@media (max-width: 1440px) {
+  .hero {
+    background-position: calc(100% + 400px) top;
+  }
+
+  .auction-bet-section__props {
+    flex-direction: column;
+  }
+
+  .auction-bet {
+    margin-right: 0;
+    margin-bottom: var(--gap);
+  }
+
+  .subscribe__container {
+    background-position: calc(100% + 400px) center;
+  }
+
+  .new__stickers {
+    justify-content: center;
+  }
+
+  .new__stickers picture:not(:last-child) {
+    margin-right: 21px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 36px;
+  }
+
+  .hero {
+    background-image: url("../img/hero-bg-tablet.png");
+    background-position: right top;
+  }
+
+  .auction-bet {
+    margin-bottom: 30px;
+  }
+
+  .auction {
+    padding-top: 48px;
+  }
+
+  .auction__item:not(:nth-child(4n)) {
+    margin-right: 0;
+  }
+
+  .auction__item:not(:nth-child(3n)) {
+    margin-right: var(--gap);
+  }
+
+  .auction__item:nth-last-child(-n + 2) {
+    display: none;
+  }
+
+  .auction__item {
+    width: calc((100% - (var(--gap) * 2)) / 3);
+  }
+
+  .new__slider {
+    margin-bottom: 58px;
+  }
+
+  .subscribe__container {
+    padding-top: var(--gap);
+    padding-bottom: 28px;
+  }
+
+  .become-author {
+    padding-bottom: 90px;
+  }
+
+  .become-author__decorate {
+    display: none;
+  }
+
+  .become-author__content {
+    display: block;
+  }
+
+  .become-author__text {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .become-author__descr {
+    padding-right: 0;
+    max-width: 788px;
+  }
+
+  .become-author__form {
+    --size-limiter: 624px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    width: 100%;
+    background-image: url("../img/become-decorate-tablet.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+
+  .become-author__wrap {
+    width: 100%;
+    max-width: var(--size-limiter);
+  }
+
+  .become-author__file {
+    max-width: var(--size-limiter);
+  }
+
+  .become-author__input {
+    max-width: var(--size-limiter);
+  }
+
+  .top-info__container {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-position: calc(100% - 36px) center;
+  }
+
+  .hero__text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__btn--fill {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .hero__buttons {
+    max-width: 400px;
+  }
+
+  .auction-timer {
+    background-image: none;
+  }
+
+  .become-author__form {
+    --size-limiter: 400px;
+    background-size: 250px auto;
+  }
+
+  .auction-bet-section__image {
+    min-width: auto;
+    width: 300px;
+  }
+
+  .auction-bet-section__info {
+    width: calc(100% - 300px - var(--gap));
+  }
+
+  .auction-product__title {
+    font-size: 17px;
+  }
+
+  .auction-product__timer {
+    font-size: 14px;
+  }
+
+  .subscribe__container {
+    background-image: none;
+  }
+
+  .top-product {
+    min-height: 140px;
+  }
+
+  .top-product__image {
+    height: 100%;
+    padding: 0;
+  }
+
+  .top-product__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .top-info__container {
+    background-image: none;
+  }
+
+  .file__input {
+    max-width: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: none;
+  }
+
+  .header {
+    padding-bottom: 0;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .header__nav {
+    border-top: 1px solid #c4c4c4;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-right: 0;
+    width: 100%;
+    order: 3;
+  }
+
+  .header__nav .nav__list {
+    justify-content: center;
+  }
+
+  .header__logo {
+    margin-left: 36px;
+  }
+
+  .header__btn {
+    margin-right: 36px;
+  }
+
+  .header__container {
+    padding: 0;
+  }
+
+  .auction-bet-section__content {
+    display: block;
+  }
+
+  .auction-bet-section__info {
+    width: 100%;
+  }
+
+  .auction-bet-section__image {
+    margin-right: 0;
+    margin-bottom: var(--gap);
+  }
+
+  .auction__item:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .auction__item:not(:nth-child(2n)) {
+    margin-right: var(--gap);
+  }
+
+  .auction__item:nth-last-child(-n + 2) {
+    display: none;
+  }
+
+  .auction__item {
+    width: calc((100% - (var(--gap) * 1)) / 2);
+  }
+
+  .hero__title {
+    font-size: 56px;
+    line-height: 70px;
+  }
+
+  .become-author__form {
+    --size-limiter: none;
+    background-image: none;
+  }
+
+  .top-product {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .top-product__image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 40px 40px 0px 0px;
+    width: 100%;
+    margin-right: 0;
+    height: 132px;
+    font-size: 0;
+  }
+
+  .top-product__info {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .hero__title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
